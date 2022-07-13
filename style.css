@@ -243,18 +243,6 @@ html {
     background: linear-gradient(rgb(255, 107, 107), rgb(184, 27, 27));
 }
 
-.sec1__design4 {
-    content: "";
-    position: absolute;
-    top: 40%;
-    left: -10%;
-    height: 40%;
-    width: 40%;
-    border-radius: 30% 50%;
-    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
-    background: linear-gradient(rgb(245, 93, 93), rgb(255, 122, 122));
-    animation: animate3 ease-in-out 3s infinite;
-}
 
 @keyframes animate3 {
     0% {
@@ -274,8 +262,9 @@ html {
     position: relative;
     z-index: 1;
     width: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     filter: drop-shadow(0 0 .5rem rgba(0, 0, 0, .5));
+    border-radius: 50%;
 }
 
 .sec1__imgBx .sec1__design1 {
